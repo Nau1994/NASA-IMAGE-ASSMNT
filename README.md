@@ -10,22 +10,22 @@
 4) docker should be intalled and running (https://docs.docker.com/desktop/install/windows-install/)
 
 **Redis Start**: Please run docker commond
-    ```console
+```console
     docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
-    ```
+   ``` 
 **Start backend server**: Please run commond in Project Directory
-    ```console
+```console
     cd nasa-api-server
     npm install
     npm start
-    ```
+   ``` 
+
 **Start frontend app**: Please run commond in Project Directory
-    ```console
+```console
     cd nasa-photo-gallery
     npm install
     ng serve
-    ```
-
+   ``` 
 
 ### 3) Application testing
 
