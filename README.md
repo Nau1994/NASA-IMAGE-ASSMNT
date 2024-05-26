@@ -1,6 +1,7 @@
 # NASA-IMAGE-ASSMNT
 ### 1) Design
-  
+  ![image](https://github.com/Nau1994/NASA-IMAGE-ASSMNT/assets/95983390/d82d7ec5-e56c-41b8-876f-0c07ff9269da)
+
 
 ### 2) Setup
   **Prerequisite**: docker must be install and running.
