@@ -1,0 +1,25 @@
+<div class="filters-container">
+  <form (ngSubmit)="applyFilters()">
+    <div class="form-group">
+      <label for="query">Search Query</label>
+      <input type="text" id="query" [(ngModel)]="filters.query" name="query">
+    </div>
+    <div class="form-group">
+      <label for="yearStart">Year Start</label>
+      <input type="number" id="yearStart" [(ngModel)]="filters.yearStart" name="yearStart">
+    </div>
+    <div class="form-group">
+      <label for="yearEnd">Year End</label>
+      <input type="number" id="yearEnd" [(ngModel)]="filters.yearEnd" name="yearEnd">
+    </div>
+    <div class="form-group">
+      <label for="mediaType">Media Type</label>
+      <select id="mediaType" [(ngModel)]="filters.mediaType" name="mediaType">
+        <option value="image">Image</option>
+        <option value="video">Video</option>
+        <option value="audio">Audio</option>
+      </select>
+    </div>
+    <button type="submit" >Search</button>
+  </form>
+</div>
